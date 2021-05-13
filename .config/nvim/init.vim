@@ -17,6 +17,10 @@ Plug 'vimwiki/vimwiki'
 Plug 'bling/vim-airline'
 Plug 'tpope/vim-commentary'
 Plug 'ap/vim-css-color'
+" Plugin for a live preview of LaTeX, needs +python thouhg so doesn't work rn.
+" Plug 'xuhdev/vim-latex-live-preview'
+" Plugin for nord theme
+" Plug 'arcticivestudio/nord-vim'
 call plug#end()
 
 set title
@@ -29,6 +33,8 @@ set noshowmode
 set noruler
 set laststatus=0
 set noshowcmd
+
+" colorscheme nord
 
 " Some basics:
 	nnoremap c "_c
